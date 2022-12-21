@@ -15,6 +15,7 @@ public class Main {
             for (int i = 0; i < Integer.valueOf(firstLine); i++) {
                 inputList.add(sc.nextLine());
             }
+
             List<List<String>> objects = new ArrayList<>();
             for (int i = 0; i < inputList.size(); i++) {
                 ArrayList<String> strings = new ArrayList<>();
