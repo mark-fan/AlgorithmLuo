@@ -4,9 +4,6 @@ package com.markfan.zuochenyun;
  * @author luofan
  */
 public class NodeTest {
-    public static void main(String[] args) {
-
-    }
 
     /**
      * 翻转单链表
@@ -73,6 +70,38 @@ public class NodeTest {
      * 队列：先进先出 排队执行
      * 要求： 使用数组 and 链表完成栈 和队列
      *
+     * 链表实现栈：只有一个头指针 更加方法上下移动即可
+     * 链表实现队列 使用头尾两个指针
+     *
+     * 数组实现栈：一个数组加一个index控制
+     * 数组实现队列：* goole常考题 *  循环数组形成队列
      */
+
+    public class DoubleEndsQuene<T>{
+        public Node<T> head;
+        public Node<T> tail;
+
+
+
+
+        public class Node<T>{
+            public T value;
+            public Node next;
+
+            public Node(T value) {
+                this.value = value;
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+
 
 }
