@@ -3,6 +3,7 @@ package com.markfan.zuochenyun;
 import java.util.LinkedList;
 
 /**
+ * 使用双队列实现栈的功能
  * @author luofan
  */
 public class Code01_TwoQueneImplStack {
