@@ -1,7 +1,7 @@
 package com.markfan.zuochenyun;
 
 /**
- * 给一个limit建立队列长度
+ * 给一个limit长度的数组建立队列长度
  * @author luofan
  */
 public class MyQuene {
