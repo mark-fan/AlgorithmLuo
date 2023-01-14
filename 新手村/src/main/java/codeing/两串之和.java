@@ -7,13 +7,9 @@ package codeing;
  * @author luofan
  */
 public class 两串之和 {
-
     public static void main(String[] args) {
         String a = "123455668445574444";
         String b = "923465868495574845";
-        System.out.println(8 / 10);
-        System.out.println(8 % 10);
-        System.out.println(sumTwoString("11", "123456"));
         System.out.println(sumTwoString(a, b));
     }
 
@@ -37,6 +33,7 @@ public class 两串之和 {
 
     /**
      * 字符串根据长度左补0
+     *
      * @param num
      * @param len
      * @return
