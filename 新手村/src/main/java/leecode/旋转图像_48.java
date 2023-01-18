@@ -19,6 +19,7 @@ public class 旋转图像_48 {
 
     public static void rotate(int[][] matrix) {
         int len = matrix.length;
+        //水平翻转
         for (int i = 0; i < len / 2; i++) {
             for (int j = 0; j < len; j++) {
 //                swap(matrix[i][j],matrix[len-i-1][j]);
@@ -27,6 +28,7 @@ public class 旋转图像_48 {
                 matrix[len-i-1][j] = temp;
             }
         }
+        //主对角线翻转
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < i; j++) {
 //                swap(matrix[i][j],matrix[j][i]);
