@@ -4,7 +4,7 @@ package leecode;
 /**
  * 有效的数独
  */
-public class IsValidSudoku {
+public class IsValidSudoku_36 {
     public boolean isValidSudoku(char[][] board) {
         int[][] row = new int[9][9];
         int[][] column = new int[9][9];

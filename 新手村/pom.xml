@@ -16,7 +16,7 @@
         </dependency>
     </dependencies>
 
-    <artifactId>新手村</artifactId>
+    <artifactId>step-one</artifactId>
     <build>
         <plugins>
             <plugin>

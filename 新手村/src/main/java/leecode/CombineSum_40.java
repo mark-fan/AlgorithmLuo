@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CombineSum2 {
+public class CombineSum_40 {
     static List<List<Integer>> res = new ArrayList<>();
 
     public static void main(String[] args) {

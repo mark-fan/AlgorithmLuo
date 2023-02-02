@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 数据排序 然后回溯找值
  */
-public class CombineSum {
+public class CombineSum_39 {
 
     public static void main(String[] args) {
         int[] test = {2, 3, 6, 7};

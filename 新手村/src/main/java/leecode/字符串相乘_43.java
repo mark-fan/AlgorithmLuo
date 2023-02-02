@@ -5,7 +5,7 @@ package leecode;
  * <p>
  * 注意：不能使用任何内置的 BigInteger 库或直接将输入转换为整数。
  */
-public class 字符串相乘 {
+public class 字符串相乘_43 {
 
     public static void main(String[] args) {
         System.out.println(multiply("90", "10"));
